@@ -1,0 +1,32 @@
+/* Element selector */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* ID selector - unique element */
+#page-title {
+  color: purple;
+  text-align: center;
+  font-size: 36px;
+}
+
+/* Class selector - reusable */
+.intro {
+  font-size: 18px;
+  font-weight: bold;
+  color: darkgoldenrod;
+}
+
+.post {
+  background-color: darkorange;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+/* ID selector for footer */
+#footer-text {
+  text-align: center;
+  color: gray;
+  font-size: 14px;
+}
