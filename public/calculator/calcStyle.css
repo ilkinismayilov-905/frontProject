@@ -8,6 +8,10 @@ body {
     font-family: Arial, sans-serif;
 }
 
+#history-display {
+    text-align: right;
+    padding: 0 5px;
+}
 
 #calculator{
     font-family: Arial, Helvetica, sans-serif;
@@ -15,6 +19,9 @@ body {
     padding: 25px;
     border: 1px solid #333;
     overflow: hidden;
+    width: 100%;
+    max-width: 320px; /* Telefonlarda ekranı aşmaması üçün */
+    box-sizing: border-box;
 }
 
 #display{

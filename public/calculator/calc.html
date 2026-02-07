@@ -9,7 +9,9 @@
 <body>
 
     <div id="calculator">
-        <input id="display" readonly>
+        <div id="history-display" style="height: 20px; font-size: 0.9rem; color: #888; text-align: right;"></div> 
+    
+    <input id="display" readonly placeholder="0">
         <div id="keys">
             <button onclick="appendToDisplay('1')">1</button>
             <button onclick="appendToDisplay('2')">2</button>
@@ -22,11 +24,12 @@
             <button onclick="appendToDisplay('7')">7</button>
             <button onclick="appendToDisplay('8')">8</button>
             <button onclick="appendToDisplay('9')">9</button>
-            <button onclick="appendToDisplay('x')">x</button>
+            <button onclick="appendToDisplay('*')">*</button>
             <button onclick="clearDisplay('C')">C</button>
             <button onclick="appendToDisplay('0')">0</button>
             <button onclick="calculate('=')">=</button>
             <button onclick="appendToDisplay('/')">/</button>
+            <button onclick="backspace()">⌫</button>
         </div>
     </div>
     <script src="calcScript.js"></script>
